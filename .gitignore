@@ -1,10 +1,26 @@
-# Dependencies
+# Node.js
 node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Environment variables
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Prisma
+.prisma/
+prisma/migrations/
+
+# Environment
 .env
 
 
-# Build output
-dist/
+# Nodemon
+nodemon.json
 
+# IDE files
+.vscode/
+.idea/
+*.sw?
