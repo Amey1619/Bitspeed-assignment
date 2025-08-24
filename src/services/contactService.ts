@@ -46,9 +46,9 @@ export async function identifyContact(
     }
 
     // Case: new info provided
-    const hasEmail = existingContacts.some((c: { email: string | undefined; }) => c.email === email);
+    const hasEmail = existingContacts.some((c) => c.email === email);
     const hasPhone = existingContacts.some(
-      (c: { phoneNumber: string | undefined; }) => c.phoneNumber === phoneNumber
+      (c) => c.phoneNumber === phoneNumber
     );
 
     if ((!hasEmail && email) || (!hasPhone && phoneNumber)) {
