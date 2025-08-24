@@ -10,7 +10,6 @@ build/
 *.tsbuildinfo
 
 # Prisma
-.prisma/
 prisma/migrations/
 
 # Environment
